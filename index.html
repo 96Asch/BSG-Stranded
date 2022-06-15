@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=400 height=800 style="width: 400px; height: 800px; background: #231F20"></canvas>
-    <script src="Build/BSG-Stranded.loader.js"></script>
+    <script src="Build/WebGL.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/BSG-Stranded.data",
-        frameworkUrl: "Build/BSG-Stranded.framework.js",
-        codeUrl: "Build/BSG-Stranded.wasm",
+        dataUrl: "Build/WebGL.data",
+        frameworkUrl: "Build/WebGL.framework.js",
+        codeUrl: "Build/WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Stranded",
